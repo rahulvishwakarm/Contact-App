@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from '../src/data/Header';
-import DisplayContianer from '../src/data/DisplayContianer';
+import DisplayContianer from '../src/data/DisplayContainer';
 
 
 function App() {
