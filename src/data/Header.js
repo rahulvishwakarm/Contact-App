@@ -1,10 +1,12 @@
 import React from 'react';
 import '../App.css';
+import '../css/Header.css';
+import { Link} from "react-router";
 
 function Header() {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light sticky">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">Dataroid</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +42,7 @@ function Header() {
                         </li>
                         </ul>
                     </div>
-                    <button className="btn btn-primary" type="submit">Login</button>
+                    <button className="btn btn-primary" type="submit"><Link to="/Login">Login</Link></button>
                 </div>
             </nav>
         </div>
